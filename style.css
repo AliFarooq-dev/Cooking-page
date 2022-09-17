@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgb(69, 69, 127);
+    color: white;
+    padding: 1.5rem;
+}
+
+nav li {
+    list-style: none;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 2rem;
+    padding: 2.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    padding: 2.5rem;
+}
+
+nav h1 {
+    float: left;
+    cursor: pointer;
+}
+
+nav ul {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+nav li {
+    float: left;
+    margin: 0rem 4rem;
+    cursor: pointer;
+}
+
+.hero-section {
+    background-image: url("/img/pexels-madison-inouye-192933.jpg");
+    height: 35rem;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    padding-top: 5rem;
+}
+
+.hero-section button {
+    padding: 0.8rem 2.2rem;
+    margin-top: 2rem;
+    background-color: rgb(227, 231, 100);
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
